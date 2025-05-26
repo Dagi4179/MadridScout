@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-900 text-white">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Madrid USA Scout Registration</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen">
+  <form action="http://localhost:3000/register" method="POST" class="bg-gray-800 p-8 rounded-xl w-full max-w-md shadow-lg space-y-4">
+    <h1 class="text-2xl font-bold mb-4 text-center">Football Scout Registration</h1>
+
+    <input type="text" name="fullName" placeholder="Full Name" required class="w-full p-3 rounded bg-gray-700 border border-gray-600" />
+    <input type="number" name="age" placeholder="Age" required class="w-full p-3 rounded bg-gray-700 border border-gray-600" />
+    <input type="text" name="position" placeholder="Preferred Position" required class="w-full p-3 rounded bg-gray-700 border border-gray-600" />
+    <input type="text" name="location" placeholder="City, State (USA)" required class="w-full p-3 rounded bg-gray-700 border border-gray-600" />
+    <input type="email" name="email" placeholder="Email Address" required class="w-full p-3 rounded bg-gray-700 border border-gray-600" />
+    <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-3 rounded bg-gray-700 border border-gray-600" />
+
+    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded text-white font-bold">Submit Application</button>
+  </form>
+</body>
+</html>
